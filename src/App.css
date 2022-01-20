@@ -98,3 +98,27 @@
 .body__social-links img{
     filter: invert();
 }
+
+@media screen and (max-width: 460px) {
+    .team__cards{
+        row-gap: 1rem;
+        margin: 1rem;
+    }
+    .card__body-image img{
+        height: 150px;
+        width: 150px;
+    }
+    .body__name-name{
+        font-size: 0.8rem;
+    }
+    .body__name-domain{
+        font-size: 0.8rem;
+    }
+    .body__name-year{
+        font-size: 0.6rem;
+    }
+    .body__social-links img{
+        height: 1.7rem;
+        width: 1.7rem;
+    }
+}
