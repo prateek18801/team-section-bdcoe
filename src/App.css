@@ -12,7 +12,7 @@
 .team__app::before{
     position: absolute;
     content: "";
-    background: url("./bg.png");
+    background: url("./teambg.png");
     background-position: center;
     background-size: cover;
     background-repeat: repeat-y;
