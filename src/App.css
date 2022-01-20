@@ -10,7 +10,7 @@
     overflow-y: scroll;
 }
 .team__app::before{
-    position: absolute;
+    position: fixed;
     content: "";
     background: url("./teambg.png");
     background-position: center;
@@ -52,7 +52,7 @@
 .card__body-image{
     position: relative;
     overflow: hidden;
-    padding: 1rem;
+    padding: 0.25rem;
 }
 .card__body-name{
     width: 100%;
@@ -93,12 +93,6 @@
     right: 0;
     padding: 4rem 0;
     border-radius: 5px 5px 0 0;
-    /* background: linear-gradient(135deg, rgba(3,86,246,0.8) 0%, rgba(0,6,255,0.8) 42%, rgba(195,22,99,0.8) 100%); */
-    /* background-color: #559eed91; */
-    /* background-color: #4158D0;
-    background-image: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
-    /* background-image: linear-gradient( 132.6deg,  rgba(71, 140, 214, 0.7) 23.3%, rgba(37,216,211,0.7) 84.7% ); */
-    /* background-image: linear-gradient( 135deg,  rgba(0,193,228,0.7) 11.2%, rgba(0,131,155,0.7) 74.7% ); */
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(56,207,191,0.8) 0%, rgba(10,70,147,0.8) 90.2% );
 }
 .body__social-links img{

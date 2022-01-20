@@ -7,7 +7,7 @@ const Card = ({ details }) => {
     return (
         <div className="team__card-container">
             <div className="card__body-image">
-                <img src={details.imageUrl} loading="lazy" height="150" width="150" alt={details.name} />
+                <img src={details.imageUrl} loading="lazy" height="170" width="170" alt={details.name} />
                 <div className="card__body-social">
                     <div className="body__social-links">
                         <div><a href={details.github} target="_blank" rel="noreferrer"><img src={githubIcon} height="25" width="25" alt="github" /></a></div>
