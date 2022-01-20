@@ -5,11 +5,24 @@
     box-sizing: border-box;
 }
 .team__app{
+    position: relative;
     height: 100vh;
-    background: url("./teambg.png");
+    overflow-y: scroll;
+}
+.team__app::before{
+    position: absolute;
+    content: "";
+    background: url("./bg.png");
     background-position: center;
     background-size: cover;
-    overflow-y: scroll;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 100vw;
+    z-index: -100;
+}
+.particle__bg{
+    position: absolute;
+    z-index: -50;
 }
 .team__app::-webkit-scrollbar{
     display: none;
@@ -18,6 +31,7 @@
     text-align: center;
 }
 .team__team h2{
+    margin: 1rem 0;
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -44,10 +58,15 @@
     width: 100%;
     padding: 0.5rem;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 0 -1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 .body__name-name{
-    font-weight: 600;
-    color: rgb(31, 43, 224);
+    font-weight: 700;
+    color: rgb(15, 77, 192);
+    font-family: 'Poppins', sans-serif;
+}
+.body__name-domain{
+    font-family: 'Poppins', sans-serif;
 }
 .body__name-year{
     font-family: monospace;
@@ -74,7 +93,13 @@
     right: 0;
     padding: 4rem 0;
     border-radius: 5px 5px 0 0;
-    background: linear-gradient(135deg, rgba(3,86,246,0.8) 0%, rgba(0,6,255,0.8) 42%, rgba(195,22,99,0.8) 100%);
+    /* background: linear-gradient(135deg, rgba(3,86,246,0.8) 0%, rgba(0,6,255,0.8) 42%, rgba(195,22,99,0.8) 100%); */
+    /* background-color: #559eed91; */
+    /* background-color: #4158D0;
+    background-image: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    /* background-image: linear-gradient( 132.6deg,  rgba(71, 140, 214, 0.7) 23.3%, rgba(37,216,211,0.7) 84.7% ); */
+    /* background-image: linear-gradient( 135deg,  rgba(0,193,228,0.7) 11.2%, rgba(0,131,155,0.7) 74.7% ); */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(56,207,191,0.8) 0%, rgba(10,70,147,0.8) 90.2% );
 }
 .body__social-links img{
     filter: invert();

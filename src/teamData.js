@@ -60,6 +60,26 @@ const teamData = [
         instagram: ""
     },
     {
+        id: "13",
+        name: "DEEPAK CHAURASIA",
+        year: "4th Year",
+        domain: "Web Designer",
+        imageUrl: "/images/DEEPAK.jpg",
+        github: "",
+        linkedin: "",
+        instagram: ""
+    },
+    {
+        id: "15",
+        name: "PRAKANSHU SAHU",
+        year: "4th Year",
+        domain: "Machine Learning",
+        imageUrl: "/images/PRAKANSHU.jpg",
+        github: "",
+        linkedin: "",
+        instagram: ""
+    },
+    {
         id: "7",
         name: "AKSHAT GARG",
         year: "3rd Year",
@@ -119,32 +139,13 @@ const teamData = [
         linkedin: "",
         instagram: ""
     },
-    {
-        id: "13",
-        name: "DEEPAK CHAURASIA",
-        year: "4th Year",
-        domain: "Web Designer",
-        imageUrl: "/images/DEEPAK.jpg",
-        github: "",
-        linkedin: "",
-        instagram: ""
-    },
+    
     {
         id: "14",
         name: "ISHAAN SAXENA",
         year: "3rd Year",
         domain: "Machine Learning",
         imageUrl: "/images/ISHAAN.jpg",
-        github: "",
-        linkedin: "",
-        instagram: ""
-    },
-    {
-        id: "15",
-        name: "PRAKANSHU SAHU",
-        year: "4th Year",
-        domain: "Machine Learning",
-        imageUrl: "/images/PRAKANSHU.jpg",
         github: "",
         linkedin: "",
         instagram: ""
